@@ -7,4 +7,5 @@ A base docker image with Java 8 and Gradle
 FROM kinncj/base-java-8:latest
 
 CMD ["java", "-version"]
+CMD ["gradle", "--version"]
 ```
